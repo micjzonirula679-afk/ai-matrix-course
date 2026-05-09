@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>04 Kling AI视频实战 - AI短视频实战课</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#f8f9fa;color:#1a1a1a;line-height:1.8}
+.wrap{max-width:720px;margin:0 auto;padding:1.5rem 1rem}
+.top-bar{background:#fff;border:1px solid #e0e0e0;border-radius:12px;padding:1.2rem 1.5rem;margin-bottom:1.25rem}
+.top-title{font-size:18px;font-weight:600;margin-bottom:4px}
+.top-sub{font-size:13px;color:#666}
+.lesson-card{background:#fff;border:1px solid #e8e8e8;border-radius:10px;margin-bottom:16px;overflow:hidden}
+.lesson-header{display:flex;align-items:center;gap:10px;padding:12px 16px;background:#fafafa;border-bottom:1px solid #eee}
+.lesson-num{font-size:13px;font-weight:600;color:#185FA5;min-width:36px}
+.lesson-title{font-size:15px;font-weight:500;flex:1}
+.lesson-gain{font-size:12px;color:#666;padding:8px 16px;background:#f0f7ff;border-bottom:1px solid #e8e8e8}
+.lesson-gain span{color:#185FA5;font-weight:500}
+.lesson-body{padding:16px;font-size:14px}
+.lesson-body h3{font-size:15px;margin:14px 0 8px;color:#1a1a1a}
+.lesson-body h3:first-child{margin-top:0}
+.lesson-body p{margin-bottom:10px}
+.lesson-body ul,.lesson-body ol{margin:8px 0 12px 20px}
+.lesson-body li{margin-bottom:6px}
+.lesson-body .tip{background:#e8f5e9;padding:10px 14px;border-radius:8px;margin:12px 0;font-size:13px}
+.lesson-body .warn{background:#fff3e0;padding:10px 14px;border-radius:8px;margin:12px 0;font-size:13px}
+.lesson-body .template-box{background:#f5f5f5;padding:12px 16px;border-radius:8px;margin:10px 0;font-size:13px;border-left:3px solid #185FA5}
+.lesson-body .prompt-box{background:#1a1a2e;color:#e0e0e0;padding:12px 16px;border-radius:8px;margin:10px 0;font-size:13px;font-family:monospace;overflow-x:auto}
+.chapter-nav{display:flex;justify-content:space-between;margin-top:24px;padding-top:16px;border-top:1px solid #e0e0e0}
+.chapter-nav a{color:#185FA5;text-decoration:none;font-size:14px}
+.badge{display:inline-block;font-size:11px;padding:2px 8px;border-radius:10px;margin-left:6px;font-weight:500}
+.badge-red{background:#FCEBEB;color:#A32D2D}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<div class="top-bar">
+<div class="top-title">04 Kling AI视频实战 <span class="badge badge-red">必学</span></div>
+<div class="top-sub">从图片转动图到电影级视频制作，全面掌握Kling AI · 共7节课</div>
+</div>
+
+<!-- 第01节：Kling AI注册+充值+避坑指南 -->
+<div class="lesson-card">
+<div class="lesson-header">
+<span class="lesson-num">第01节</span>
+<span class="lesson-title">Kling AI注册+充值+避坑指南</span>
+</div>
+<div class="lesson-gain">✅ 学完后你能获得：<span>顺利开通账号，明白价格策略，不踩消费陷阱</span></div>
+<div class="lesson-body">
+<p>Kling AI是快手旗下的AI视频生成工具，目前是国内最好用的AI视频平台之一，生成的视频质量高、动作流畅、人物真实感强。</p>
+<h3>注册步骤</h3>
+<p>打开浏览器访问 <strong>klingai.com</strong>，点击右上角"登录/注册"，用手机号或者微信扫码注册均可。注册完成后会赠送一定数量的免费积分，够新手生成十几条视频练手。</p>
+<h3>积分和充值说明</h3>
+<ul>
+<li>标准画质5秒视频：约消耗10积分</li>
+<li>高画质5秒视频：约消耗35积分</li>
+<li>高画质10秒视频：约消耗70积分</li>
+</ul>
+<p>新手阶段建议先用免费积分练手，熟悉操作之后再充值。充值建议按需购买，不要一次充太多。</p>
+<h3>几个必须知道的避坑点</h3>
+<ol>
+<li><strong>不要用VPN访问Kling AI。</strong>Kling AI是国内平台，用VPN反而可能触发风控。</li>
+<li>生成视频时不要关闭页面，建议等生成完成再离开。</li>
+<li>高峰期生成速度慢是正常现象，可以错开晚上8-11点使用。</li>
+<li><strong>生成失败不扣积分。</strong>积分会原路退回，不用担心白白消耗。</li>
+</ol>
+</div>
+</div>
+
+<!-- 第02节：图片转视频 -->
+<div class="lesson-card">
+<div class="lesson-header">
+<span class="lesson-num">第02节</span>
+<span class="lesson-title">图片转视频（一张图变10秒动态视频）</span>
+</div>
+<div class="lesson-gain">✅ 学完后你能获得：<span>把静态美女图秒变动态视频，是最快出片方式</span></div>
+<div class="lesson-body">
+<p>图片转视频是Kling AI最常用、最实用的功能，也是做AI美女账号最核心的操作。</p>
+<h3>操作步骤</h3>
+<ol>
+<li>进入Kling AI，点击左侧菜单"图生视频"。</li>
+<li>上传你准备好的图片（建议用前面章节生成的高质量AI美女图）。</li>
+<li>在提示词框里描述你希望人物做什么动作，比如"轻轻转头微笑，头发随风飘动"。</li>
+<li>选择视频时长（5秒或10秒）和画质（标准或高清），点击生成。</li>
+</ol>
+<h3>提示词技巧</h3>
+<p>图生视频的提示词重点描述"动作"和"氛围"，不需要再描述人物外貌。</p>
+<h3>好的图生视频提示词示例</h3>
+<div class="prompt-box">
+人物缓缓转头，嘴角微微上扬，眼神温柔，头发随微风轻轻飘动<br><br>
+她抬起手拨了拨头发，眼睛看向镜头，表情自然放松<br><br>
+咖啡馆场景，人物端起咖啡杯轻轻抿了一口，窗外阳光照进来
+</div>
+<h3>让视频效果更好的3个技巧</h3>
+<ol>
+<li><strong>图片质量决定视频质量。</strong>用高清、构图好的图片生成的视频，效果远好于模糊或者构图差的图片。</li>
+<li><strong>动作描述要具体。</strong>"人物动了"这种描述太模糊，要写具体动作。</li>
+<li><strong>生成多条备选。</strong>同一张图生成3到5条视频，从中挑选最好的使用。</li>
+</ol>
+</div>
+</div>
+
+<!-- 第03节：文生视频 -->
+<div class="lesson-card">
+<div class="lesson-header">
+<span class="lesson-num">第03节</span>
+<span class="lesson-title">文生视频（纯文字生成视频完整流程）</span>
+</div>
+<div class="lesson-gain">✅ 学完后你能获得：<span>不需要任何素材，用一段描述生成完整视频</span></div>
+<div class="lesson-body">
+<p>文生视频不需要任何图片素材，直接用文字描述画面，Kling AI会从零开始生成一条完整视频。</p>
+<h3>操作步骤</h3>
+<ol>
+<li>进入Kling AI，点击"文生视频"。</li>
+<li>在提示词框里详细描述你想要的画面。</li>
+<li>选择画面比例（竖屏9:16用于抖音/小红书，横屏16:9用于YouTube）、时长和画质。</li>
+<li>点击生成，等待出片。</li>
+</ol>
+<h3>文生视频提示词结构</h3>
+<div class="template-box"><strong>场景描述 + 主体内容 + 光线氛围 + 运镜方式 + 风格画质</strong></div>
+<h3>示例提示词</h3>
+<div class="prompt-box">
+<strong>城市夜景：</strong>繁华的城市夜晚，高楼大厦霓虹灯闪烁，雨后的街道倒映着灯光，镜头缓缓向前推进，电影感，4K，色调偏冷，赛博朋克风格<br><br>
+<strong>自然风光：</strong>清晨的山顶，云海翻涌，金色阳光穿透云层照射下来，镜头从低角度仰拍，慢慢上升，史诗感，超高清，震撼壮观<br><br>
+<strong>产品展示：</strong>一瓶香水放在大理石台面上，玫瑰花瓣散落周围，柔和的侧光照射，镜头缓缓环绕产品一圈，高端商业广告风格，超清晰
+</div>
+<h3>适合文生视频的内容方向</h3>
+<ul>
+<li><strong>风景类：</strong>山川、城市、海边、星空</li>
+<li><strong>氛围类：</strong>雨天、雪景、落日、烛光</li>
+<li><strong>商业类：</strong>产品展示、品牌宣传</li>
+<li><strong>特效类：</strong>魔法、粒子、光影效果</li>
+</ul>
+</div>
+</div>
+
+<!-- 第04节：人物动作生成 -->
+<div class="lesson-card">
+<div class="lesson-header">
+<span class="lesson-num">第04节</span>
+<span class="lesson-title">人物动作生成（走路/跳舞/转头）</span>
+</div>
+<div class="lesson-gain">✅ 学完后你能获得：<span>让AI人物动起来，生成真实感动作画面</span></div>
+<div class="lesson-body">
+<p>人物动作生成是AI美女视频最核心的技术点。动作自不自然，直接决定视频播放量。</p>
+<h3>常用动作提示词分类</h3>
+<h3>日常动作</h3>
+<div class="prompt-box">
+<strong>走路：</strong>人物优雅地向前走来，步伐轻盈，长发随走动飘动，镜头跟随<br>
+<strong>转头：</strong>人物缓缓从侧面转头看向镜头，眼神明亮，嘴角微扬<br>
+<strong>拨头发：</strong>人物用手轻轻拨开额前的头发，动作自然优雅<br>
+<strong>喝咖啡：</strong>人物端起白色咖啡杯，轻轻抿了一口，眼神望向窗外
+</div>
+<h3>情绪动作</h3>
+<div class="prompt-box">
+<strong>微笑：</strong>人物嘴角缓缓上扬，露出温柔的微笑，眼睛弯成月牙形<br>
+<strong>思考：</strong>人物低下头，用手指轻轻点了点下巴，若有所思的表情<br>
+<strong>惊讶：</strong>人物眼睛慢慢睁大，嘴巴微微张开，手捂住嘴巴
+</div>
+<h3>舞蹈动作</h3>
+<div class="prompt-box">
+<strong>慢节奏舞：</strong>人物随着音乐缓缓摆动身体，动作流畅，长裙飘动<br>
+<strong>转圈：</strong>人物原地缓缓旋转一圈，裙摆飞扬，表情愉悦
+</div>
+<h3>让动作更自然的关键词</h3>
+<div class="prompt-box">fluid motion（流畅动作）| natural movement（自然动作）| smooth transition（平滑过渡）| realistic physics（真实物理效果）</div>
+<div class="tip"><strong>实用技巧：</strong>一个动作一条视频，不要在一条视频里塞太多动作。动作越简单，生成效果越自然，成功率越高。</div>
+</div>
+</div>
+
+<!-- 第05节：运镜教学 -->
+<div class="lesson-card">
+<div class="lesson-header">
+<span class="lesson-num">第05节</span>
+<span class="lesson-title">运镜教学（推拉摇移+景别控制）</span>
+</div>
+<div class="lesson-gain">✅ 学完后你能获得：<span>掌握电影级运镜，让视频有大片既视感</span></div>
+<div class="lesson-body">
+<p>运镜是区分普通视频和专业视频的核心差距。</p>
+<h3>四种基本运镜</h3>
+<ul>
+<li><strong>推镜头：</strong>镜头向主体靠近，制造聚焦感。<br><span class="prompt-box" style="display:inline-block;padding:2px 8px;margin:4px 0">camera slowly pushes in toward the subject，zoom in gradually</span></li>
+<li><strong>拉镜头：</strong>镜头从主体拉远，制造开阔感或孤独感。<br><span class="prompt-box" style="display:inline-block;padding:2px 8px;margin:4px 0">camera slowly pulls back，revealing the surrounding environment</span></li>
+<li><strong>摇镜头：</strong>镜头左右或上下摆动。<br><span class="prompt-box" style="display:inline-block;padding:2px 8px;margin:4px 0">camera pans slowly from left to right，revealing the scene</span></li>
+<li><strong>移镜头：</strong>镜头平行移动，有流动感和电影感。<br><span class="prompt-box" style="display:inline-block;padding:2px 8px;margin:4px 0">camera tracks sideways，following the subject</span></li>
+</ul>
+<h3>景别控制</h3>
+<ul>
+<li><strong>远景：</strong>wide shot，establishing shot，full scene visible</li>
+<li><strong>中景：</strong>medium shot，waist up，person centered</li>
+<li><strong>近景：</strong>close shot，chest up，facial expression clear</li>
+<li><strong>特写：</strong>close-up，face only，extreme detail</li>
+<li><strong>大特写：</strong>extreme close-up，eyes only，skin texture visible</li>
+</ul>
+<h3>经典运镜组合</h3>
+<div class="tip">开场用远景交代环境 → 推进到中景展示人物 → 最后特写捕捉表情。这个三段式运镜是电影里最常用的结构，套在AI视频上效果非常好。</div>
+</div>
+</div>
+
+<!-- 第06节：电影感视频制作全流程 -->
+<div class="lesson-card">
+<div class="lesson-header">
+<span class="lesson-num">第06节</span>
+<span class="lesson-title">电影感视频制作全流程</span>
+</div>
+<div class="lesson-gain">✅ 学完后你能获得：<span>从策划到出片，做出媲美专业团队的短视频</span></div>
+<div class="lesson-body">
+<p>把前面所有技能整合起来，做一条完整的电影感短视频。</p>
+<h3>完整制作流程</h3>
+<p><strong>第一步：策划（用DeepSeek）</strong><br>先用DeepSeek写好视频脚本。告诉DeepSeek：这是一条30秒的电影感短视频，主题是【你的主题】，帮我写分镜脚本，包含每个镜头的画面描述、时长和情绪氛围。</p>
+<p><strong>第二步：生图（用即梦AI）</strong><br>根据脚本里的场景描述，用即梦AI生成对应的高质量图片。每个场景生成3到5张备选，选最好的那张。</p>
+<p><strong>第三步：生视频（用Kling AI）</strong><br>把选好的图片上传到Kling AI，用图生视频功能，根据脚本里的动作描述生成对应的视频片段。</p>
+<p><strong>第四步：剪辑（用剪映）</strong><br>把生成的多个视频片段导入剪映，按照脚本顺序拼接，加上转场、BGM、字幕、配音，完成成片。</p>
+<h3>电影感必加的三个元素</h3>
+<ol>
+<li><strong>电影宽幅黑边。</strong>在剪映里给视频上下各加一条黑边，比例变成21:9，马上有电影感。</li>
+<li><strong>色调调整。</strong>整体降低饱和度，提高对比度，加一点点暗角。</li>
+<li><strong>背景音乐。</strong>选择纯音乐或者情绪类BGM，不要选歌词太多的歌。</li>
+</ol>
+</div>
+</div>
+
+<!-- 第07节：AI美女动态视频批量制作方法 -->
+<div class="lesson-card">
+<div class="lesson-header">
+<span class="lesson-num">第07节</span>
+<span class="lesson-title">AI美女动态视频批量制作方法</span>
+</div>
+<div class="lesson-gain">✅ 学完后你能获得：<span>掌握批量产出AI美女动态视频的工作流，1天出30条</span></div>
+<div class="lesson-body">
+<p>单条视频做得再好，也不如批量出片来得稳。掌握批量制作方法，是从兼职变成全职的关键一步。</p>
+<h3>批量制作流程</h3>
+<p><strong>第一步，批量生图。</strong>用即梦AI一次生成20到30张AI美女图，选出质量最好的10到15张备用。</p>
+<p><strong>第二步，批量生视频。</strong>把选好的图片全部上传到Kling AI，统一提交生成任务。趁生成的时候去做别的事情。</p>
+<p><strong>第三步，批量写文案。</strong>打开DeepSeek，一次让它写10条视频文案和对应标题，复制保存好。</p>
+<p><strong>第四步，批量剪辑。</strong>剪映支持批量添加字幕和BGM，10条视频的字幕可以在半小时内全部处理完。</p>
+<p><strong>第五步，批量发布。</strong>用定时发布功能，把10条视频安排在一周内不同时间段发出去。</p>
+<h3>时间成本参考</h3>
+<div class="tip">熟练之后，用这套流程一次性生产10条AI美女视频，总时间大概3到4小时。平均每条视频20到30分钟，效率是单条制作的3倍以上。</div>
+</div>
+</div>
+
+<div class="chapter-nav">
+<a href="03_AI生图实战.html">← 上一章：03 AI生图实战</a>
+<a href="05_剪映剪辑教学.html">下一章：05 剪映剪辑教学 →</a>
+</div>
+
+</div>
+</body>
+</html>

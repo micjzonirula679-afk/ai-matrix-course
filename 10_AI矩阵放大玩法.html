@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>10 AI矩阵放大玩法 - AI短视频实战课</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#f8f9fa;color:#1a1a1a;line-height:1.8}
+.wrap{max-width:720px;margin:0 auto;padding:1.5rem 1rem}
+.top-bar{background:#fff;border:1px solid #e0e0e0;border-radius:12px;padding:1.2rem 1.5rem;margin-bottom:1.25rem}
+.top-title{font-size:18px;font-weight:600;margin-bottom:4px}
+.top-sub{font-size:13px;color:#666}
+.lesson-card{background:#fff;border:1px solid #e8e8e8;border-radius:10px;margin-bottom:16px;overflow:hidden}
+.lesson-header{display:flex;align-items:center;gap:10px;padding:12px 16px;background:#fafafa;border-bottom:1px solid #eee}
+.lesson-num{font-size:13px;font-weight:600;color:#185FA5;min-width:36px}
+.lesson-title{font-size:15px;font-weight:500;flex:1}
+.lesson-gain{font-size:12px;color:#666;padding:8px 16px;background:#f0f7ff;border-bottom:1px solid #e8e8e8}
+.lesson-gain span{color:#185FA5;font-weight:500}
+.lesson-body{padding:16px;font-size:14px}
+.lesson-body h3{font-size:15px;margin:14px 0 8px;color:#1a1a1a}
+.lesson-body h3:first-child{margin-top:0}
+.lesson-body p{margin-bottom:10px}
+.lesson-body ul,.lesson-body ol{margin:8px 0 12px 20px}
+.lesson-body li{margin-bottom:6px}
+.lesson-body .tip{background:#e8f5e9;padding:10px 14px;border-radius:8px;margin:12px 0;font-size:13px}
+.lesson-body .warn{background:#fff3e0;padding:10px 14px;border-radius:8px;margin:12px 0;font-size:13px}
+.lesson-body .template-box{background:#f5f5f5;padding:12px 16px;border-radius:8px;margin:10px 0;font-size:13px;border-left:3px solid #185FA5}
+.lesson-body .meta{color:#666;font-size:12px;margin-bottom:12px}
+.lesson-body .homework{background:#ede7f6;padding:10px 14px;border-radius:8px;margin:12px 0;font-size:13px}
+.lesson-body .homework strong{color:#5e35b1}
+.lesson-body .ladder{background:linear-gradient(135deg,#fff3e0,#fce4ec);padding:14px 18px;border-radius:10px;margin:12px 0;text-align:center;font-size:15px;font-weight:600}
+.chapter-nav{display:flex;justify-content:space-between;margin-top:24px;padding-top:16px;border-top:1px solid #e0e0e0}
+.chapter-nav a{color:#185FA5;text-decoration:none;font-size:14px}
+.badge{display:inline-block;font-size:11px;padding:2px 8px;border-radius:10px;margin-left:6px;font-weight:500}
+.badge-amber{background:#FAEEDA;color:#854F0B}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<div class="top-bar">
+<div class="top-title">10 AI矩阵放大玩法 <span class="badge badge-amber">进阶</span></div>
+<div class="top-sub">从单兵作战到团队化运营，实现收益成倍放大 · 共5节课</div>
+</div>
+
+<!-- 10.1 -->
+<div class="lesson-card">
+<div class="lesson-header">
+<span class="lesson-num">第01节</span>
+<span class="lesson-title">批量生成视频的工作流搭建</span>
+</div>
+<div class="lesson-gain">✅ 学完后你能获得：<span>建立每天批量出片的流水线，不再一条一条做</span></div>
+<div class="lesson-body">
+<p class="meta">本节时长：约55分钟</p>
+<h3>核心知识点</h3>
+<p><strong>视频生产流水线设计：</strong></p>
+<p>脚本库（50个模板） → 素材库（1000张底图） → 配音库（10种声音） → 发布池</p>
+<p><strong>工具串联：</strong>Airtable管理选题 → Make自动化触发生图 → 剪映批量导出</p>
+<p><strong>一人一天100条视频的生产计划</strong></p>
+<h3>实操</h3>
+<p>搭建一个最小可用流水线模板。</p>
+<div class="homework"><strong>课后作业：</strong>画出自己的流水线流程图，并开始搭建素材库</div>
+</div>
+</div>
+
+<!-- 10.2 -->
+<div class="lesson-card">
+<div class="lesson-header">
+<span class="lesson-num">第02节</span>
+<span class="lesson-title">批量生成文案的提示词模板库</span>
+</div>
+<div class="lesson-gain">✅ 学完后你能获得：<span>建立自己的文案模板库，10分钟出50条文案</span></div>
+<div class="lesson-body">
+<p class="meta">本节时长：约40分钟</p>
+<h3>核心知识点</h3>
+<p><strong>文案模板库结构：</strong></p>
+<ul>
+<li>10种开头模板</li>
+<li>10种中间模板</li>
+<li>10种结尾模板</li>
+</ul>
+<p><strong>用DeepSeek批量生成：</strong>输入变量（风格、主题、受众）一键生成50条。</p>
+<p><strong>文案的分类管理：</strong></p>
+<ul>
+<li>按情绪（治愈/励志/搞笑）</li>
+<li>按用途（口播/图文/剧情）</li>
+</ul>
+<div class="template-box"><strong>提供资源：</strong>"100条AI短视频文案模板.xlsx"</div>
+<div class="homework"><strong>课后作业：</strong>用模板生成20条文案，存入自己的库</div>
+</div>
+</div>
+
+<!-- 10.3 -->
+<div class="lesson-card">
+<div class="lesson-header">
+<span class="lesson-num">第03节</span>
+<span class="lesson-title">多账号运营策略（矩阵布局）</span>
+</div>
+<div class="lesson-gain">✅ 学完后你能获得：<span>同时运营多个账号，收益成倍放大</span></div>
+<div class="lesson-body">
+<p class="meta">本节时长：约45分钟</p>
+<h3>核心知识点</h3>
+<p><strong>矩阵账号类型：</strong></p>
+<ul>
+<li><strong>主账号</strong>（人设IP）</li>
+<li><strong>子账号</strong>（细分风格）</li>
+<li><strong>小号</strong>（测内容）</li>
+</ul>
+<p><strong>运营策略：</strong>主号发深度内容，子号发批量内容，小号发混剪测试。</p>
+<p><strong>防关联技巧：</strong>不同手机/不同IP/不同发布时间段。</p>
+<h3>案例</h3>
+<p>一个矩阵号月总播放量5000万的运作方式。</p>
+<div class="homework"><strong>课后作业：</strong>注册2个子账号，开始同步更新</div>
+</div>
+</div>
+
+<!-- 10.4 -->
+<div class="lesson-card">
+<div class="lesson-header">
+<span class="lesson-num">第04节</span>
+<span class="lesson-title">AI自动化思路（工具组合使用）</span>
+</div>
+<div class="lesson-gain">✅ 学完后你能获得：<span>打通AI工具之间的连接，实现半自动化生产</span></div>
+<div class="lesson-body">
+<p class="meta">本节时长：约50分钟</p>
+<h3>核心知识点</h3>
+<p><strong>自动化组合推荐：</strong></p>
+<p>RSS订阅爆款选题 → Zapier发送到DeepSeek生成脚本 → 自动触发Kling生成视频 → 传到剪映云模板</p>
+<p><strong>半自动与全自动的平衡：</strong>人工做筛选和调优，机器做重复劳动。</p>
+<p><strong>低代码/无代码工具：</strong>Make、n8n、自动化扫光脚本。</p>
+<h3>演示</h3>
+<p>用一个自动化场景跑通一条视频（从选题到发布）。</p>
+<div class="homework"><strong>课后作业：</strong>选择一个重复性最高的环节，尝试用自动化工具替代</div>
+</div>
+</div>
+
+<!-- 10.5 -->
+<div class="lesson-card">
+<div class="lesson-header">
+<span class="lesson-num">第05节</span>
+<span class="lesson-title">如何放大收益（外包/带徒/卖课）</span>
+</div>
+<div class="lesson-gain">✅ 学完后你能获得：<span>找到从执行者升级为知识变现者的完整路径</span></div>
+<div class="lesson-body">
+<p class="meta">本节时长：约45分钟</p>
+<h3>核心知识点</h3>
+<p><strong>外包模式：</strong>把简单环节（生图、去水印）以每单2-5元外包给兼职。</p>
+<p><strong>带徒模式：</strong>收学费299-999元/人，分50%给帮带的老学员。</p>
+<p><strong>卖课模式：</strong>把自己的流程录制成小课，挂到千聊/小鹅通。</p>
+<h3>收益放大阶梯图</h3>
+<div class="ladder">
+单干月入5,000 → 带团队月入30,000 → 卖课月入100,000
+</div>
+<h3>案例</h3>
+<p>一个学员用带徒模式，3个月裂变出20个下线。</p>
+<div class="homework"><strong>课后作业：</strong>制定自己的"放大计划书"（下一步做什么、需要什么资源）</div>
+</div>
+</div>
+
+<div class="chapter-nav">
+<a href="09_AI接单变现.html">← 上一章：09 AI接单变现</a>
+</div>
+
+</div>
+</body>
+</html>
